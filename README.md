@@ -7,6 +7,6 @@ You want download a music, film or another file and after click redirectioning t
 
 To put this bookmarklet in your browser and resolve problems some above is simple.
 
-Add a bookmark on your favorite browser with the code this [link]("javascript:(function(){  script=document.createElement('SCRIPT');  script.type='text/javascript';  script.src='https://raw.github.com/brunoarueira/reverse_url/master/reverse_url_bookmarklet.js';  document.getElementsByTagName('head')[0].appendChild(script);})();") to bookmarks bar on your favorite browser.
+Add a bookmark on your favorite browser with the code this [link](""javascript:(function(){  script=document.createElement('SCRIPT');  script.type='text/javascript';  script.src='https://raw.github.com/brunoarueira/reverse_url/master/reverse_url_bookmarklet.js';  document.getElementsByTagName('head')[0].appendChild(script);})();"") to bookmarks bar on your favorite browser.
 
 Thanks.
