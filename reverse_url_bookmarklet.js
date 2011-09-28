@@ -1,1 +1,1 @@
-javascript:(function() {String.prototype.reverse = function() { return this.split("").reverse().join(""); }; url = window.location.href.reverse(); url = url.substring(0,url.indexOf('=lru')); window.location.href = url;})()
+javascript:(function() {String.prototype.reverse = function() { return this.split("").reverse().join(""); }; url = window.location.href.reverse(); url = url.substring(0,(url.indexOf('=lru')  > -1)? url.indexOf('=lru') : url.indexOf('=knil')); window.location.href = url;})()
